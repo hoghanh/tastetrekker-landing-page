@@ -7970,7 +7970,8 @@ button.bg-dark:focus {
   white-space: nowrap; }
 
 .text-left {
-  text-align: left !important; }
+  text-align: left !important;
+ }
 
 .text-right {
   text-align: right !important; }
@@ -8727,4 +8728,15 @@ h1, h2, h3, h4, h5,
 
 .img-footer{
   height: 40px;
+}
+
+.text-carousel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work {
+  position: relative;
 }
