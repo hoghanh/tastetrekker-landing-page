@@ -5324,6 +5324,12 @@ a.close.disabled {
   border-top-right-radius: 30px;
 }
 
+.choose-carousel-1.active,
+.choose-carousel-2.active,
+.choose-carousel-3.active {
+background-color: #FF9CAE;
+}
+
 
 @-webkit-keyframes spinner-border {
   to {
@@ -8370,6 +8376,7 @@ h1, h2, h3, h4, h5,
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); }
     .thumbnail li.active a img {
       /* border: 4px solid #fff; */
+      background-color: #FF9CAE;
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
       transform: scale(1.1);
